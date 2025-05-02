@@ -1,0 +1,37 @@
+name: BackpackPlugin
+version: 1.0.0
+main: me.ash.backpackPlugin.BackpackPlugin
+api-version: '1.20'
+description: A plugin that provides customizable backpacks for players
+author: ash
+
+commands:
+  backpack:
+    description: Opens your backpack
+    usage: /backpack [open|clear|help|admin]
+    aliases: [bp]
+    permission: backpack.use
+
+permissions:
+  backpack.use:
+    description: Allows players to use the backpack command
+    default: true
+  backpack.command.clear:
+    description: Allows players to clear their backpack
+    default: true
+  backpack.admin:
+    description: Gives access to admin commands
+    default: op
+    children:
+      backpack.use: true
+      backpack.command.clear: true
+      backpack.size.large: true
+  backpack.size.small:
+    description: Allows players to have a small backpack (3 rows)
+    default: true
+  backpack.size.medium:
+    description: Allows players to have a medium backpack (4 rows)
+    default: op
+  backpack.size.large:
+    description: Allows players to have a large backpack (6 rows)
+    default: op
