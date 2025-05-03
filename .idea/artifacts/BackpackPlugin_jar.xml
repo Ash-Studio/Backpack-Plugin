@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BackpackPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BackpackPlugin_jar</output-path>
+    <root id="archive" name="BackpackPlugin.jar">
+      <element id="module-output" name="BackpackPlugin" />
+    </root>
+  </artifact>
+</component>
