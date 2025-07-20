@@ -1,4 +1,4 @@
-# BackpackPlugin
+# Backpack Plugin
 ## Description
 BackpackPlugin is a customizable Minecraft plugin that provides players with personal storage backpacks. It allows players to store and access their items on-the-go, with different backpack sizes available based on permissions. The plugin features an intuitive command system with tab completion and supports various operations like opening, clearing, and viewing help information.
 ## Features
